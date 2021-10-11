@@ -28,7 +28,7 @@ If you have not already configured one, run the following command to generate an
 
 ```ssh-keygen -t rsa -b 4096 -C "username@example.foo"```
 
-In this example, username represents the cPanel account username and example.foo represents your domain name.
+In this example, `username` represents the cPanel account username and `example.foo` represents your domain name.
 
 After you run this command, the system will prompt you to enter a passphrase. Do not enter a passphrase, and press Enter to continue.
 
