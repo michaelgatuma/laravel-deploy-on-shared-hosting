@@ -25,15 +25,20 @@ To set up access to private repositories, perform the following steps:
 
 ### Generate an SSH key
 If you have not already configured one, run the following command to generate an SSH key:
+
 ```ssh-keygen -t rsa -b 4096 -C "username@example.foo"```
+
 In this example, username represents the cPanel account username and example.foo represents your domain name.
 
 After you run this command, the system will prompt you to enter a passphrase. Do not enter a passphrase, and press Enter to continue.
 
 ### Confirm that you generated the SSH key correctly
 To confirm that the key exists and is in the correct location, run the following command:
+
 ```cat ~/.ssh/id_rsa.pub```
+
 The output should resemble the following example, where AAAAB3Nza... represents a valid SSH key:
+
 ```ssh-rsa AAAAB3Nza...```
 
 ### Register your SSH key with the private repository host
