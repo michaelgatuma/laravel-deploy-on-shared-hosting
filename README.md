@@ -116,12 +116,13 @@ $ cd awesome-app
 ```
 
 ### (a) Clone through Git™ Version Control Wizard
-Search `git` in your cPanel home.
-Click the *Create* button located on the top right.
-Enter the clone URL for the remote repository in the respective text field.
-The rest of the fields should now be autofilled for you automatically. You can change the naming as you desire.
-Now click *Create* and the wizard will start cloning your repository if SSH Setup was done correctly.
+- Search `git` in your cPanel home.
+- Click the *Create* button located on the top right.
+- Enter the clone URL for the remote repository in the respective text field.
+- The rest of the fields should now be autofilled for you automatically. You can change the naming as you desire.
+- Now click *Create* and the wizard will start cloning your repository if SSH Setup was done correctly.
 
+## Configure
 Next step is to make the `awesome-app/public` directory to map with `www` directory, symbol link is a great help for this, but we need to backup `public` directory first.
 
 ```bash
